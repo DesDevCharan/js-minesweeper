@@ -1,0 +1,108 @@
+body {
+  background: #252626;
+  color: #dddddd;
+  font-family: courier new;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.input-area > div {
+  margin: 5px;
+}
+#grid {
+  margin: 10px auto;
+}
+
+#grid tr td {
+  border: 1px solid white;
+  background: #999999;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+#grid tr td.clicked {
+  background: #333333;
+}
+
+#grid tr td.mine {
+  background: #ff0000;
+}
+
+button {
+  margin: 12px;
+  width: 100px;
+  height: 40px;
+  background: #252626;
+  color: #dddddd;
+  border: 1px solid;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  background: #dddddd;
+  color: #252626;
+  border: 1px solid #252626;
+}
+
+a {
+  margin: 12px;
+  background: #252626;
+  color: #ff0000;
+}
+a:hover {
+  color: #00e1ff;
+}
+
+.timer {
+  display: none;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  height: calc(100% - 100px);
+}
+
+.image-holder {
+  display: flex;
+  flex: 2 2 0;
+  flex-direction: column;
+  border-right: 2px dashed #dddddd;
+  justify-content: center;
+}
+
+.game-holder {
+  display: flex;
+  flex: 3 3 0;
+  justify-content: center;
+  margin: 0px 100px;
+  height: 90vh;
+}
+
+.title-div {
+  height: 100px;
+  box-sizing: border-box;
+  padding: 20px;
+  border-bottom: 2px dashed #dddddd;
+  height: 10vh;
+}

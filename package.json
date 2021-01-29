@@ -1,0 +1,28 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "Mine sweeper game using plain JS and CSS",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server --port 10001",
+    "start": "npm run lite"
+  },
+  "devDependencies": {
+    "lite-server": "^1.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DesDevCharan/js-minesweeper.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "Charanbabu Karnam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DesDevCharan/js-minesweeper/issues"
+  },
+  "homepage": "https://github.com/DesDevCharan/js-minesweeper#readme"
+}

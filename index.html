@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine sweeper</title>
+    <link rel="stylesheet" href="./src/sweep.css">
+</head>
+
+<body>
+    <div class="title-div">
+        <h1>Minesweeper JS</h1>
+        Based on the video game, <a target="_new"
+            href="http://en.wikipedia.org/wiki/Minesweeper_(video_game)">Minesweeper</a>
+    </div>
+    <div class="container">
+        <div class="image-holder">
+            <h2>Snapshot - Image for the Game </h2>
+            <div class="image">
+                <img src="./assets//snapshot.PNG" alt="Snapshot">
+            </div>
+        </div>
+        <div class="game-holder">
+            <div class="game-area">
+                <h2>Game Area</h2>
+                <div class="input-area">
+                    <div class="row-div">
+                        <label for="rows">Rows</label>
+                        <input type="text" id="rows" value="10">
+                    </div>
+                    <div class="cols-div">
+                        <label for="cols">Columns</label>
+                        <input type="text" id="cols" value="10">
+                    </div>
+                    <div class="mines-div">
+                        <label for="mines">Mines</label>
+                        <input type="text" id="mines" value="10">
+                    </div>
+                    <div class="moves-div">
+                        Moves Made: <span id="moves">0</span>
+                    </div>
+                </div>
+                <div class="btn-div">
+                    <button id="grid-btn" onclick="generateGrid();">Start</button>
+                    <div class="timer">Game ends in <span id="time">05:00</span> minutes!</div>
+                </div>
+                <div class="grid-div">
+                    <table id=grid>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./src/sweep.js"></script>
+</body>
+
+</html>
