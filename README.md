@@ -6,6 +6,14 @@ Minesweer game using Vanilla Javascript
 [![html](https://img.shields.io/badge/-HTML-brightgreen)](https://github.com/DesDevCharan)
 [![CSS](https://img.shields.io/badge/-CSS-brightgreen)](https://github.com/DesDevCharan)
 
+## Features Included
+- Snapshot of the game
+- User can choose grid (Rows and Columns)
+- User can choose mines
+- Identifier to track the moves made
+- Reset the Grid
+- Reveal Option with a Flag to display all mines
+
 ## Run Development Server
 
 This package uses `lite-server` for the local server. In package.json start script assosciates with this.
